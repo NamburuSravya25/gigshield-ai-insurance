@@ -1,4 +1,3 @@
-# gigshield-ai-insurance
 # GigShield AI 🚀
 
 AI-Powered Parametric Income Protection for Gig Workers
@@ -9,7 +8,7 @@ AI-Powered Parametric Income Protection for Gig Workers
 
 Our primary user is:
 
-**BalaRaju (Age 30)**
+**Ravi (Age 26)**
 
 * Works as a Swiggy delivery partner in Vijayawada
 * Works 10–12 hours/day
@@ -18,12 +17,25 @@ Our primary user is:
 
 ### 🔍 Real Problem Ravi Faces:
 
-* During heavy rain → fewer orders + unsafe driving
+* During heavy rain → fewer orders + unsafe working conditions
 * During extreme heat → reduced working hours
-* During high pollution → health risk → stops working
+* During high pollution → forced to stop working
 * During curfews → zero income
 
 👉 Result: **20–30% weekly income loss**
+
+---
+
+## 📍 Local Context: Vijayawada
+
+In Vijayawada:
+
+* 🌡️ Summers often exceed **42–45°C**, reducing working hours
+* 🌧️ Monsoon rains lead to waterlogging and unsafe delivery conditions
+* 🚦 Traffic congestion delays deliveries
+* 🌫️ Pollution spikes in busy areas
+
+👉 These conditions frequently cause **significant weekly income loss for delivery partners**
 
 ---
 
@@ -31,8 +43,8 @@ Our primary user is:
 
 Gig workers face **income volatility due to external disruptions**, but:
 
-* No insurance covers **income loss**
-* Claims systems are slow/manual
+* No insurance covers **loss of income**
+* Claims systems are manual and slow
 * Workers cannot afford monthly premiums
 
 ---
@@ -42,7 +54,7 @@ Gig workers face **income volatility due to external disruptions**, but:
 A **parametric insurance platform** that:
 
 * Uses AI to calculate **weekly risk**
-* Charges **low weekly premiums**
+* Charges **affordable weekly premiums**
 * Automatically triggers payouts when disruption thresholds are met
 
 ---
@@ -66,11 +78,12 @@ A **parametric insurance platform** that:
      * Area-based risk index
    * Output:
 
-     * Risk Score (0–1)
+     * **Risk Score (0–1)**
 
 3. **Weekly Premium Calculation**
-   Formula:
-   Premium = Base Rate × Risk Score × Income Factor
+
+   * Formula:
+     **Premium = Base Rate × Risk Score × Income Factor**
 
 4. **Policy Activation**
 
@@ -83,15 +96,15 @@ A **parametric insurance platform** that:
      * Rainfall
      * Temperature
      * AQI
-     * Govt alerts
+     * Government alerts
 
 6. **Trigger Engine (Parametric)**
 
-   * If threshold crossed → claim auto-triggered
+   * If threshold is crossed → claim is automatically triggered
 
 7. **Instant Payout**
 
-   * Credited directly to user (UPI)
+   * Amount credited directly to user via UPI
 
 ---
 
@@ -103,7 +116,7 @@ A **parametric insurance platform** that:
 | 0.3–0.6    | ₹40     | ₹1000    |
 | 0.6–1      | ₹80     | ₹2000    |
 
-👉 Adjusted weekly using AI predictions
+👉 Premiums are dynamically adjusted every week using AI predictions
 
 ---
 
@@ -118,19 +131,19 @@ A **parametric insurance platform** that:
 
 ---
 
-## 📉 Market Crash Scenario (IMPORTANT)
+## 📉 Market Crash Scenario (Demand Drop Protection)
 
 ### Problem:
 
-Sudden drop in orders due to:
+Delivery partners may lose income due to:
 
 * Platform outages
-* Demand crashes
-* Economic slowdown
+* Sudden drop in customer demand
+* Economic slowdowns
 
 ### Solution:
 
-We introduce **Demand Index Monitoring**:
+We introduce a **Demand Index Monitoring System**
 
 * Inputs:
 
@@ -139,13 +152,13 @@ We introduce **Demand Index Monitoring**:
 
 ### Trigger:
 
-* If order volume drops >40% vs weekly average
+* If demand drops **>40% compared to weekly average**
 
 ### Action:
 
-* Compensation payout triggered
+* Automatic payout triggered
 
-👉 Ensures protection beyond environmental risks
+👉 Ensures coverage beyond environmental disruptions
 
 ---
 
@@ -157,11 +170,13 @@ We introduce **Demand Index Monitoring**:
 * Inputs:
 
   * Weather forecast
-  * Location
-  * Historical disruptions
+  * Location (city-specific data like Vijayawada)
+  * Historical disruption frequency
 * Output:
 
-  * Weekly risk score
+  * **Weekly Risk Score (0–1)**
+
+👉 This score directly drives premium pricing and risk classification
 
 ---
 
@@ -169,18 +184,18 @@ We introduce **Demand Index Monitoring**:
 
 * 📍 GPS Validation
 
-  * Checks if user is in affected area
+  * Ensures user is present in affected area
 
 * 🔁 Duplicate Claim Detection
 
-  * Prevents multiple claims for same event
+  * Prevents repeated claims for same event
 
 * 📉 Anomaly Detection
 
   * Flags:
 
-    * Too frequent claims
-    * Claims without real disruption
+    * Unusual claim frequency
+    * Claims without actual disruption
 
 ---
 
@@ -237,14 +252,29 @@ Why:
 
 ---
 
+## 🧪 Prototype (Phase 1 Scope)
+
+In this phase, we have developed:
+
+* Complete system workflow
+* AI-based pricing logic
+* Parametric trigger definitions
+* Technical architecture design
+
+👉 This forms the foundation for implementation in upcoming phases
+
+---
+
 ## 🎯 Future Roadmap
 
-* Real API integrations
-* Advanced ML models
-* Partner with gig platforms
-* Scale to multiple cities
+* Integrate real APIs
+* Build AI models
+* Implement real-time trigger engine
+* Enable live payouts
+* Expand across multiple cities
 
 ---
 
 ## 🎥 Demo Video
 
+(Add your video link here)
